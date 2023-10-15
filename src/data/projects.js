@@ -33,6 +33,7 @@ const data = [
     subtitle: 'A robust cli based tool to managing a spotify like application',
     image: '/images/projects/dbms.png',
     date: '2023-04-13',
+    link: 'https://github.com/nagarajumadamshetti/dbms',
     desc:
       'An agile command-line tool enabling seamless management of a Spotify-like application,'
        + ' offering robust functionality and ease of use. It streamlines various tasks while ensuring a user-friendly experience.',
