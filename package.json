@@ -1,11 +1,11 @@
 {
-  "name": "personal-site",
+  "name": "portfolio",
   "version": "4.0.0",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://nagarajumadamshetti.github.io/nagarajumadamshetti.github.io",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/nagarajumadamshetti.git"
   },
   "engines": {
     "node": ">=16.x"
@@ -15,6 +15,7 @@
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
     "predeploy": "npm run build && react-snap",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "npx jest"
   },
@@ -22,8 +23,12 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "0.2.0",
+    "axios": "^1.5.1",
     "dayjs": "^1.11.10",
+    "google-spreadsheet": "^4.1.0",
+    "googleapis": "^127.0.0",
     "markdown-to-jsx": "^7.3.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

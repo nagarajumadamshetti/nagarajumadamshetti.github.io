@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 import EmailLink from '../components/Contact/EmailLink';
 import ContactIcons from '../components/Contact/ContactIcons';
+// import EmailSMSSender from '../components/Contact/EmailSMSSender';
 
 const Contact = () => (
   <Main
     title="Contact"
-    description="Contact Michael D'Angelo via email @ hi@mldangelo.com"
+    description="Contact Nagaraj Madamshetti via email @ hi@mldangelo.com"
   >
     <article className="post" id="contact">
       <header>
@@ -22,6 +23,7 @@ const Contact = () => (
       </div>
       <ContactIcons />
     </article>
+    {/* <EmailSMSSender /> */}
   </Main>
 );
 

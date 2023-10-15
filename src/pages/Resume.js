@@ -1,5 +1,9 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 import Main from '../layouts/Main';
 
@@ -26,12 +30,21 @@ const sections = {
 const Resume = () => (
   <Main
     title="Resume"
-    description="Michael D'Angelo's Resume. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
+    description="Nagaraj Madamshetti's Resume."
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <h2 style={{ margin: '0' }}>
+              <Link to="/resume">Resume</Link>
+            </h2>
+            <h1 style={{ margin: '0', marginLeft: '10px' }}>
+              <Link to="/data/nagaraj_madamshetti.pdf" target="_blank" download>
+                <FontAwesomeIcon icon={faFileArrowDown} />
+              </Link>
+            </h1>
+          </div>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>

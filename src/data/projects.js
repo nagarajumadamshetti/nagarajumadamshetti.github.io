@@ -1,47 +1,41 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Quickly',
+    subtitle: 'Linux Networking Course Project',
+    image: '/images/projects/cdn.png',
+    link: 'https://github.com/nagarajumadamshetti/quicklyv2',
+    date: '2023-04-06',
+    desc: `Quickly is a Content Delivery Network (CDN) service that deploys
+           infrastructure on a Linux machine and provides tenant isolation.`,
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Wolfcare',
+    subtitle: 'Undertaken a SE project for development',
+    link: 'https://github.com/nagarajumadamshetti/ncsu_se_fall22_22_pr_2',
+    image: '/images/projects/wolfcare.png',
+    date: '2022-12-06',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'WolfCare is an online application that manages the health portfolio of the patient and provides doctor\'s assistance through an online portal '
+      + 'A virtual doctor appointment booking system overrides the problems of booking an appointment manually.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Donatify',
+    subtitle: 'Get on Donatify, donate the stuff you don\'t need, and feel good.',
+    link: 'https://github.com/nagarajumadamshetti/ncsu_se_fall22_22_pr_1',
+    image: '/images/projects/donatify.png',
+    date: '2022-10-09',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Want to be part of an environment saving initiative, while sitting in the comfort of your home? Get on Donatify, donate the stuff you don\'t need, and feel good.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Media Streaming Service',
+    subtitle: 'A robust cli based tool to managing a spotify like application',
+    image: '/images/projects/dbms.png',
+    date: '2023-04-13',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'An agile command-line tool enabling seamless management of a Spotify-like application,'
+       + ' offering robust functionality and ease of use. It streamlines various tasks while ensuring a user-friendly experience.',
   },
 ];
 
