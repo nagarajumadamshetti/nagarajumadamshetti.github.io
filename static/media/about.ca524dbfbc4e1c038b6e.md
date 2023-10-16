@@ -35,3 +35,7 @@ Gokaraju Rangaraju Institute of Engineering and Technology
 - building something useful.
 - to be better than yesterday.
 - having a beach house in Miami with a volleyball court.
+
+# When it comes to you, I could not be more proud.
+
+<img src="/images/projects/family.png" alt="Family" width="500" height="500" />
